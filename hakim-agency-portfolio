@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hakim B. | White-Label Front-End &amp; Landing Page Partner for Agencies</title>
+  <meta name="description" content="Fast, responsive HTML5, Tailwind CSS, Next.js landing pages and technical SEO builds for digital agencies in the US, UK, and Canada." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', system-ui, sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-200 antialiased">
+
+  <!-- Header -->
+  <header class="border-b border-slate-800/80 bg-slate-950/90 backdrop-blur sticky top-0 z-40">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <a href="#" class="font-semibold text-white tracking-tight text-base">
+        Hakim<span class="text-emerald-400">.dev</span>
+      </a>
+      <nav class="hidden sm:flex items-center gap-6 text-sm text-slate-400">
+        <a href="#work" class="hover:text-white transition">Selected Work</a>
+        <a href="#services" class="hover:text-white transition">Agency Support</a>
+        <a href="#contact" class="hover:text-white transition">Contact</a>
+      </nav>
+      <a href="#contact" class="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold text-xs sm:text-sm px-4 py-2 rounded-lg transition">
+        Request White-Label Rates
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
+    <div class="max-w-3xl space-y-6">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-medium">
+        Available for White-Label Agency Overflow &bull; US / UK / CA
+      </div>
+      <h1 class="text-3xl sm:text-5xl font-bold text-white tracking-tight leading-[1.12]">
+        Fast, Clean Front-End &amp; Landing Page Execution for Digital Agencies.
+      </h1>
+      <p class="text-slate-400 text-base sm:text-lg leading-relaxed">
+        I partner behind the scenes with boutique web design and SEO agencies to turn Figma designs or briefs into high-converting, responsive builds—delivered on tight turnarounds with clean code and strong Core Web Vitals.
+      </p>
+      <div class="flex flex-wrap gap-3 pt-2">
+        <a href="#work" class="bg-white hover:bg-slate-100 text-slate-950 font-semibold text-sm px-5 py-3 rounded-lg transition">
+          Explore Live Demos &darr;
+        </a>
+        <a href="#contact" class="border border-slate-700 hover:border-slate-500 text-white font-medium text-sm px-5 py-3 rounded-lg transition">
+          Start a Test Build
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Grid -->
+  <section id="work" class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-slate-800/80">
+    <div class="mb-10">
+      <p class="text-xs font-semibold uppercase tracking-widest text-emerald-400">Portfolio &amp; Live Builds</p>
+      <h2 class="text-2xl sm:text-3xl font-bold text-white mt-1">Selected Industry Showcases</h2>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      <!-- Project 1 -->
+      <article class="bg-slate-900/80 border border-slate-800 hover:border-emerald-500/40 rounded-xl p-6 flex flex-col justify-between transition">
+        <div>
+          <div class="flex items-center justify-between text-xs text-slate-400 mb-3">
+            <span class="px-2.5 py-0.5 rounded bg-slate-800 text-emerald-400 font-medium">Corporate &amp; B2B</span>
+            <span>HTML5 &bull; Tailwind CSS</span>
+          </div>
+          <h3 class="text-xl font-semibold text-white">Vanguard Apex Advisory</h3>
+          <p class="text-sm text-slate-400 mt-2 leading-relaxed">
+            Executive consulting &amp; M&amp;A advisory landing page built for high-trust B2B lead generation, structured metrics presentation, and crisp typography.
+          </p>
+        </div>
+        <div class="pt-6 mt-6 border-t border-slate-800/80 flex items-center justify-between">
+          <a href="https://vanguard-apex-advisory.vercel.app/" target="_blank" rel="noopener" class="text-sm font-semibold text-emerald-400 hover:text-emerald-300">
+            Visit Live Site &rarr;
+          </a>
+          <span class="text-xs text-slate-500">vanguard-apex-advisory.vercel.app</span>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="bg-slate-900/80 border border-slate-800 hover:border-emerald-500/40 rounded-xl p-6 flex flex-col justify-between transition">
+        <div>
+          <div class="flex items-center justify-between text-xs text-slate-400 mb-3">
+            <span class="px-2.5 py-0.5 rounded bg-slate-800 text-emerald-400 font-medium">Healthcare &amp; Local</span>
+            <span>HTML5 &bull; Tailwind CSS</span>
+          </div>
+          <h3 class="text-xl font-semibold text-white">Aurelia Dental &amp; Aesthetics</h3>
+          <p class="text-sm text-slate-400 mt-2 leading-relaxed">
+            Conversion-focused dental and medical clinic showcase featuring treatment breakdowns, doctor profiles, patient reviews, and appointment booking flow.
+          </p>
+        </div>
+        <div class="pt-6 mt-6 border-t border-slate-800/80 flex items-center justify-between">
+          <a href="https://aurelia-dental-demo.vercel.app/" target="_blank" rel="noopener" class="text-sm font-semibold text-emerald-400 hover:text-emerald-300">
+            Visit Live Site &rarr;
+          </a>
+          <span class="text-xs text-slate-500">aurelia-dental-demo.vercel.app</span>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="bg-slate-900/80 border border-slate-800 hover:border-emerald-500/40 rounded-xl p-6 flex flex-col justify-between transition">
+        <div>
+          <div class="flex items-center justify-between text-xs text-slate-400 mb-3">
+            <span class="px-2.5 py-0.5 rounded bg-slate-800 text-emerald-400 font-medium">Luxury Real Estate</span>
+            <span>HTML5 &bull; Tailwind CSS</span>
+          </div>
+          <h3 class="text-xl font-semibold text-white">Maison Sterling Estates</h3>
+          <p class="text-sm text-slate-400 mt-2 leading-relaxed">
+            Editorial property showcase and private advisory landing page designed for high-ticket residential listings and discreet buyer inquiries.
+          </p>
+        </div>
+        <div class="pt-6 mt-6 border-t border-slate-800/80 flex items-center justify-between">
+          <a href="https://house-sterling-estates.vercel.app/" target="_blank" rel="noopener" class="text-sm font-semibold text-emerald-400 hover:text-emerald-300">
+            Visit Live Site &rarr;
+          </a>
+          <span class="text-xs text-slate-500">house-sterling-estates.vercel.app</span>
+        </div>
+      </article>
+
+      <!-- Project 4 -->
+      <article class="bg-slate-900/80 border border-slate-800 hover:border-emerald-500/40 rounded-xl p-6 flex flex-col justify-between transition">
+        <div>
+          <div class="flex items-center justify-between text-xs text-slate-400 mb-3">
+            <span class="px-2.5 py-0.5 rounded bg-slate-800 text-emerald-400 font-medium">Technical SEO &amp; Speed</span>
+            <span>Live Production Site</span>
+          </div>
+          <h3 class="text-xl font-semibold text-white">BufferFixer</h3>
+          <p class="text-sm text-slate-400 mt-2 leading-relaxed">
+            High-speed technical troubleshooting publication structured for organic search intent, clean information architecture, and fast mobile page loads.
+          </p>
+        </div>
+        <div class="pt-6 mt-6 border-t border-slate-800/80 flex items-center justify-between">
+          <a href="https://bufferfixer.com" target="_blank" rel="noopener" class="text-sm font-semibold text-emerald-400 hover:text-emerald-300">
+            Visit Live Site &rarr;
+          </a>
+          <span class="text-xs text-slate-500">bufferfixer.com</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- White-Label Capabilities -->
+  <section id="services" class="max-w-5xl mx-auto px-4 sm:px-6 py-12 border-t border-slate-800/80">
+    <div class="grid sm:grid-cols-3 gap-6">
+      <div class="bg-slate-900/50 border border-slate-800/80 rounded-xl p-5">
+        <h3 class="font-semibold text-white text-base">Landing Page Sprints</h3>
+        <p class="text-sm text-slate-400 mt-2">Rapid 24–72h turnaround from Figma or wireframe to responsive production HTML/Tailwind or Next.js.</p>
+      </div>
+      <div class="bg-slate-900/50 border border-slate-800/80 rounded-xl p-5">
+        <h3 class="font-semibold text-white text-base">Speed &amp; Technical SEO</h3>
+        <p class="text-sm text-slate-400 mt-2">Semantic markup, schema structured data, Core Web Vitals optimization, and clean mobile responsiveness.</p>
+      </div>
+      <div class="bg-slate-900/50 border border-slate-800/80 rounded-xl p-5">
+        <h3 class="font-semibold text-white text-base">100% White-Label</h3>
+        <p class="text-sm text-slate-400 mt-2">Zero agency branding, direct Git/Vercel handoff, and reliable asynchronous communication across time zones.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-5xl mx-auto px-4 sm:px-6 py-16 border-t border-slate-800/80">
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl p-8 sm:p-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+      <div class="space-y-2 max-w-xl">
+        <h2 class="text-2xl font-bold text-white">Need overflow front-end capacity?</h2>
+        <p class="text-sm text-slate-400">
+          Send over a sample brief or Figma link—I’ll reply with a fixed white-label quote and turnaround estimate.
+        </p>
+      </div>
+      <div class="flex flex-wrap gap-3">
+        <a href="mailto:bayedrjelhakim2002@gmail.com?subject=White-Label%20Agency%20Inquiry" class="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold text-sm px-5 py-3 rounded-lg transition">
+          Email Me Directly
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-900 py-8 px-4 text-center text-xs text-slate-500">
+    &copy; 2026 Hakim &bull; White-Label Front-End &amp; Web Performance Partner
+  </footer>
+
+</body>
+</html>
